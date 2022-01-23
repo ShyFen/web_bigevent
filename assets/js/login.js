@@ -75,7 +75,7 @@ $(function() {
             localStorage.setItem('token', res.token)
 
             // 登录成功就跳转到后台
-            // location.href = './index.html'
+            location.href = './index.html'
         })
     })
 
