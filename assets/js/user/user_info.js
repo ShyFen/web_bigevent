@@ -51,9 +51,9 @@ $(function() {
                     return layer.msg(res.message)
                 }
                 layer.msg('更新成功')
-                console.log(res);
-                // 在iframe中如何渲染index.html这个父页面，用window.parent方法
-                // 在index.html中有个方法是渲染用户信息的，再调用这个函数，就可以重新渲染用户信息了
+                    // console.log(res);
+                    // 在iframe中如何渲染index.html这个父页面，用window.parent方法
+                    // 在index.html中有个方法是渲染用户信息的，再调用这个函数，就可以重新渲染用户信息了
                 window.parent.getUserInfo()
             }
         })

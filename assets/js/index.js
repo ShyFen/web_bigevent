@@ -26,7 +26,7 @@ function getUserInfo() {
             if (res.status !== 0) {
                 return layui.layer.msg(res.message)
             }
-            console.log(res);
+            // console.log(res);
 
             // 获取信息成功之后，调用renderAvatar这个函数来渲染头像
             renderAvatar(res.data)
